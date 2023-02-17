@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>RESUMO CAP3</title>
+<style>
+
+body {
+  background-color: lightblue;
+}
+</style>
+
+<style>
+p.normal {
+  font-style: normal;
+}
+
+h1.italic {
+  font-style: italic;
+}
+
+h2.oblique {
+  font-style: oblique;
+}
+</style>
+</head>
+<body>
+</head>
+</head>
+<body>
+
+<h1 class="italic">Tema 3: Topologia de rede</h1>
+
+<img src="topologia.jpg" alt="topologia" width="500" height="333">
+
+<h2 class="oblique">O que é Topologia de Redes?</h2>
+
+<p>Existem alguns modelos no qual se pode sistematizar a conexão de cada host na rede. 
+Encontram-se dois tipos de topologias de rede:</p>
+
+<p>Topologia Física: Demonstra de fato como os hosts estão dispostos e conectados no ambiente 
+físico (Layout Físico). A posição de cada host, a forma que os cabos estão conectados, nós 
+denominamos de topologia de rede, que tem como objetivo de auxiliar em vários pontos críticos, 
+como a maleabilidade, velocidade na transferência dos dados e segurança.</p>
+
+<p>Topologia Lógica: Demonstra a forma como os dados são transmitidos na rede, ou a forma 
+como esses dados passam de um host a outro, sem se preocupar com a conexão física dos 
+hosts, a forma como os dados são transmitidos na rede podem ser controladas por switches e 
+roteadores.</p>
+
+<h2 class="oblique">Beneficios e desvantagens de cada Topologia:</h2>
+<h3 class"normal">Barramento</3>
+
+<p>Todos os hosts estão conectados ao mesmo meio físico (barramento), embora os dados não 
+"circulem" dentro de cada um dos nós, ou seja, se um computador estiver "escrevendo" aos 
+outros computadores escutam e coletam os dados que é destinado para ele. Se um computador 
+estiver enviando um sinal na rede e outro computador estiver tentando fazer o mesmo, ali se 
+caracteriza uma colisão na rede, e se esse fato ocorrer terá que recomeçar a conexão.</p>
+
+<img src="download.jfif" alt="download" width="500" height="333">
+
+<h3 class="normal">Beneficios:</h3>
+
+<ul>
+
+<li>Utilizam-se poucos cabos;</li>
+<li>Sua instalação é simples, seys meios físicos são economicamente baratos;</li>
+<li>Simples e relativamente confiável;</li>
+<li>Sua topologia é simples e de certa forma confiável;</li>
+<li>E se necessário permite a apliação de rede sem complicações</li>
+</ul>
+
+<h3 classe="normal">Desvantagens:</h3>
+
+<ul>
+
+<li>A comunicação entre hosts pode ficar lenta se o tráfego na rede aumentar;</li>
+<li>Problemas são dificeis de isolar;</li>
+<li>Caso ocorra um problema, o mesmoé difícil de identificar e isolar;</li>
+<li>Se por algum motivo houver uma falha no cabo de rede, a rede de sua empresa não irá funcionar.</li>
+</ul>
+
+<h3 class="normal">Estrela</h3>
+
+<p>Atualmente é a topologia mais utilizada, esta topologia usa o meio físico de par trançado com um 
+centralizador de rede (Switch e Roteador), este se encarrega de fazer a comunicação entre os hosts, isso facilita a detecção dos problemas, ou seja, se um computador não estiver ligado na 
+rede o LED (Luz) do concentrador ficará desligado indicando que há um problema no host.</p>
+
+<img src="images.jfif" alt="images" width="500" height="333">
+
+<h3 class="normal">Beneficios:</h3>
+
+<ul>
+
+<li>Facilita a instalação e configuração dos computadores na rede;</li>
+<li>A gerencia dos equipamentos é centralizado;</li>
+<li>Caso u computador esteja com falha, o mesmo não paralisa a rede</li>
+</ul>
+
+<h3 class="normal">Desvantagem:</h3>
+
+<p>Se o centralizador da rede apresentar falha, o mesmo ocasiona a paralisação na rede.</p>
+
+<h3 class="normal">Anel:</h3>
+
+<p>Estes hosts são conectados em série, no qual se caracteriza em um círculo formado (anel), estes 
+dados são propagados em uma única direção de host a host até chegar em seu destino, ou seja, 
+se uma estação transmitir uma mensagem, terá que retransmitir para todas as estações até 
+chegar em seu destino, esta mensagem somente o host poderá retirar da rede quem transmiti 
+ou recebe a mesma.</p>
+
+<img src="anel.jfif" alt="anel" width="500" height="333">
+
+<h3 class"normal">Beneficios</h3>
+
+<ul>
+
+<li>Os hosts conseguem acessar a rede de uma maneira uniforme;</li>
+<li>O crescimento dos hosts não altera o desemprenho da rede</li>
+</ul>
+
+<h3 class="normal">Desvantagens:</h3>
+
+<ul>
+
+<li>Se um desses host falhar, poderá impactar toda a rede;</li>
+<li>Dificil isolar os Hosts</li>
+
+<h3 class="normal">Malha:</h3>
+
+<p>Esta é uma das topologias muito utilizada, pois é facilita a instalação e a configuração dos hosts. 
+É como se todos os nós estivessem entrelaçados entre si, pois são diversos caminhos possíveis 
+por onde os dados podem trafegar até o destino.</p>
+
+<img src="malha.png" alt="malha" width="500" height="333">
+
+<h3 class="normal">Beneficios</h3>
+
+<ul>
+
+<li>Maior abundância e confiabilidade</li>
+<li>Agilidade de reconhecimento nas falhas que possa ocorrer na rede</li>
+</ul>
+
+<h3 class="normal">Desvantagem</h3>
+
+<p>Alto custo na implantação</p>
+
+
+
+</body>
+</html>
